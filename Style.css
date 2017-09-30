@@ -1,0 +1,66 @@
+/* css style*/ 
+.link {
+	text-align: center;
+}
+.em	{
+	font-size: 2em;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#redline {
+	display: block;
+	background-color: red;
+	width: 100%;
+	height: 2.5px;
+}
+#column {
+	columns: 3;
+}
+#floatlink {
+	list-style-type: none;
+    margin: 0;
+    padding: 100;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+}
+ul {   
+  list-style-type: none;     
+  margin: 0;     
+  padding: 100;     
+  overflow: hidden;     
+  background-color: #333;    
+  position: fixed;     
+  top: 0;
+  left: 0;     
+  width: 100%;      
+}  
+#linkfloat {     
+   	float: left;
+   	left: 5; 
+}  
+li a {     
+ 	display: block;     
+ 	color: white;     
+ 	text-align: center;    
+ 	padding: 14px 16px;     
+ 	text-decoration: none;
+ 	
+ }  
+li a:hover:not(.active) {     
+ 	background-color: gray;
+}
